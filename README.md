@@ -116,12 +116,26 @@ Theme settings like style and comment style.
 Some gifs showing how it works.
 
 ### Telescope - Find Files
+https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/docs/telescope-find-files.mp4?raw=true
+
 ### Lsp - Syntax check
+https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/docs/lsp-syntax-check.mp4?raw=true
+
 ### Lsp - Go to definition
-### Lsp - Document
+https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/docs/lsp-go-to-definition.mp4?raw=true
+
+### Lsp - Document/Signature Help
+https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/docs/lsp-document.mp4?raw=true
+
 ### Lsp - Find definition/references
+https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/docs/lsp-find-references.mp4?raw=true
+
 ### Lsp - Formatting
+https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/docs/lsp-format.mp4?raw=true
+
 ### Lsp - Code actions
+https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/docs/lsp-code-actions.mp4?raw=true
+
 ### Lsp - Refactorings
 ### Lsp - Rename
 ### Conjure - Eval
