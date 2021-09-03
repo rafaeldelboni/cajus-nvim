@@ -111,3 +111,20 @@ Here settings of which sources we want to show up in the autocomple menu like (c
 
 ### fnl/config/plugin/theme.fnl
 Theme settings like style and comment style.
+
+## Features
+Some gifs showing how it works.
+
+### Telescope - Find Files
+### Lsp - Syntax check
+### Lsp - Go to definition
+### Lsp - Document
+### Lsp - Find definition/references
+### Lsp - Formatting
+### Lsp - Code actions
+### Lsp - Refactorings
+### Lsp - Rename
+### Conjure - Eval
+### Conjure - Repl
+### Conjure - Document
+### Completion
