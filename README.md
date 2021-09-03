@@ -137,8 +137,19 @@ https://user-images.githubusercontent.com/1683898/132074425-bc31e472-c3d1-473a-b
 https://user-images.githubusercontent.com/1683898/132074375-17a51df6-e7b1-472f-bb26-3d2bdc4d8acd.mp4
 
 ### Lsp - Refactorings
+https://user-images.githubusercontent.com/1683898/132075009-6d07e281-294d-4010-b6a9-ecd85868807a.mp4
+
 ### Lsp - Rename
+https://user-images.githubusercontent.com/1683898/132075017-0b3d4b71-0565-4d75-a352-4f6200195c89.mp4
+
 ### Conjure - Eval
+https://user-images.githubusercontent.com/1683898/132075026-c4c1c447-6c2c-48a9-87f6-787f87dde149.mp4
+
 ### Conjure - Repl
+https://user-images.githubusercontent.com/1683898/132075035-f57a7e5d-71a2-46f2-9270-68b98d057b05.mp4
+
 ### Conjure - Document
+https://user-images.githubusercontent.com/1683898/132075041-010a84bd-923f-4680-8a72-764c65b9a63d.mp4
+
 ### Completion
+https://user-images.githubusercontent.com/1683898/132075048-f3322b6b-e14c-40d5-ba88-aee079f544f1.mp4
