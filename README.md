@@ -116,25 +116,25 @@ Theme settings like style and comment style.
 Some gifs showing how it works.
 
 ### Telescope - Find Files
-https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/docs/telescope-find-files.mp4?raw=true
+https://user-images.githubusercontent.com/1683898/132074481-e009ad74-24b8-4164-998a-fb52f001dc11.mp4
 
 ### Lsp - Syntax check
-https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/docs/lsp-syntax-check.mp4?raw=true
+https://user-images.githubusercontent.com/1683898/132074468-6603792b-3131-488d-adb4-3d9d104ab4ee.mp4
 
 ### Lsp - Go to definition
-https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/docs/lsp-go-to-definition.mp4?raw=true
+https://user-images.githubusercontent.com/1683898/132074437-ef8113f4-7c3c-453d-92c5-893dbab99932.mp4
 
 ### Lsp - Document/Signature Help
-https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/docs/lsp-document.mp4?raw=true
+https://user-images.githubusercontent.com/1683898/132074455-71f79b14-398e-4d2d-977b-6513d496db00.mp4
 
 ### Lsp - Find definition/references
-https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/docs/lsp-find-references.mp4?raw=true
+https://user-images.githubusercontent.com/1683898/132074445-73a29655-6b97-4376-b172-37f85bce3357.mp4
 
 ### Lsp - Formatting
-https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/docs/lsp-format.mp4?raw=true
+https://user-images.githubusercontent.com/1683898/132074425-bc31e472-c3d1-473a-ba0a-1ce1edf3ef98.mp4
 
 ### Lsp - Code actions
-https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/docs/lsp-code-actions.mp4?raw=true
+https://user-images.githubusercontent.com/1683898/132074375-17a51df6-e7b1-472f-bb26-3d2bdc4d8acd.mp4
 
 ### Lsp - Refactorings
 ### Lsp - Rename
