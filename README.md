@@ -1,5 +1,3 @@
-# WIP!
-
 # What is this?
 Basic config to transform your NVIM in a powerfull clojure IDE using fennel, clojure-lsp and conjure.  
 This is simplified version on my personal [dotfiles](https://github.com/rafaeldelboni/dotfiles) setup, I highly recommend you to check it out for more advanced and updated configurations.
@@ -153,3 +151,11 @@ https://user-images.githubusercontent.com/1683898/132075041-010a84bd-923f-4680-8
 
 ### Completion
 https://user-images.githubusercontent.com/1683898/132075048-f3322b6b-e14c-40d5-ba88-aee079f544f1.mp4
+
+## Contributing
+If you find any dead links, misinformation or any improvements in this documents at all [Emails](https://github.com/rafaeldelboni), [PRs](https://github.com/rafaeldelboni/buildlogs/pulls) and [Issues](https://github.com/rafaeldelboni/buildlogs/issues) are highly encouraged.
+
+## License
+
+Permits almost any use subject to providing credit and license notice.  
+For more information, please refer to https://creativecommons.org/licenses/by/4.0/
