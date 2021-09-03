@@ -4,8 +4,6 @@
 Basic config to transform your NVIM in a powerfull clojure IDE using fennel, clojure-lsp and conjure.  
 This is simplified version on my personal [dotfiles](https://github.com/rafaeldelboni/dotfiles) setup, I highly recommend you to check it out for more advanced and updated configurations.
 
-*Keep in mind that there is no visual/theme customization in this repository.* 
-
 ## Prerequisites
 Things you need installed in your OS to use this setup
 - [git](https://git-scm.com/downloads)
@@ -37,6 +35,7 @@ This will install all plugins declared in `fnl/config/plugin.fnl`, after packer'
  - [luasnip](https://github.com/L3MON4D3/LuaSnip) *Snippet Engine, works well with nvim-cmp*
  - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) *Quickstart configurations for the Nvim LSP client*
  - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) *Autocompletion plugin*
+ - [github-nvim-theme](https://github.com/projekt0n/github-nvim-theme) *Github theme for Neovim*
 
 ## Files
 
@@ -109,3 +108,6 @@ All about nvim's lsp settings and keymaps.
 
 ### fnl/config/plugin/cmp.fnl
 Here settings of which sources we want to show up in the autocomple menu like (conjure, lsp, buffer) and some mapping to navigate in the menu.
+
+### fnl/config/plugin/theme.fnl
+Theme settings like style and comment style.

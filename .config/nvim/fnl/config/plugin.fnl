@@ -43,4 +43,6 @@
   :hrsh7th/nvim-cmp {:requires [:hrsh7th/cmp-buffer
                                 :hrsh7th/cmp-nvim-lsp
                                 :PaterJason/cmp-conjure]
-                     :mod :cmp})
+                     :mod :cmp}
+  ;theme
+  :projekt0n/github-nvim-theme {:mod :theme})
