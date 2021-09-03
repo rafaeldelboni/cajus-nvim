@@ -1,28 +1,35 @@
 # WIP!
 
 # What is this?
-Basic config to transform your NVIM in a powerfull clojure IDE using fennel, clojure-lsp and conjure.
-This is simplified version on my personal [.dotfiles](https://github.com/rafaeldelboni/dotfiles) setup, I recommend you to check it out for more advanced and updated configurations.
+Basic config to transform your NVIM in a powerfull clojure IDE using fennel, clojure-lsp and conjure.  
+This is simplified version on my personal [dotfiles](https://github.com/rafaeldelboni/dotfiles) setup, I highly recommend you to check it out for more advanced and updated configurations.
+
+*Keep in mind that there is no visual/theme customization in this repository.* 
 
 ## How to use
 
+**Make sure you backup your current configuration files in `$HOME/.config/nvim` BEFORE running this.**  
+
+Run these commands in the root of this repo:
+```bash
+# Delete the current nvim config
+rm -rf $HOME/.config/nvim
+
+# Makes a symbolic link to the files in this repo
+ln -sf $PWD/.config/*/ $HOME/.config/
+```
+When you start nvim for the first time it will download packer and aniseed and show some errors, thats normal press enter to ignore and go to the nvim console pressing `:` and type `PackerInstall`.
+This will install all plugins declared in `fnl/config/plugin.fnl`, after packer's panel showing all the plugins where installed, close nvim and open it again, no errors should show up this time.
+
 ## Plugins
- - [packer](https://github.com/wbthomason/packer.nvim)
-   > Plugin/package management
- - [aniseed](https://github.com/Olical/aniseed)
-   > Bridges between fennel and nvim
- - [conjure](https://github.com/Olical/conjure)
-   > Interactive repl based evaluation for nvim
- - [telescope](https://github.com/nvim-telescope/telescope.nvim)
-   > Find, Filter, Preview, Pick
- - [treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-   > Incremental parsing system for highlighting, indentation, or folding
- - [luasnip](https://github.com/L3MON4D3/LuaSnip)
-   > Snippet Engine, works well with nvim-cmp
- - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-   > Quickstart configurations for the Nvim LSP client
- - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
-   > Autocompletion plugin
+ - [packer](https://github.com/wbthomason/packer.nvim) *Plugin/package management*
+ - [aniseed](https://github.com/Olical/aniseed) *Bridges between fennel and nvim*
+ - [conjure](https://github.com/Olical/conjure) *Interactive repl based evaluation for nvim*
+ - [telescope](https://github.com/nvim-telescope/telescope.nvim) *Find, Filter, Preview, Pick*
+ - [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) *Incremental parsing system for highlighting, indentation, or folding*
+ - [luasnip](https://github.com/L3MON4D3/LuaSnip) *Snippet Engine, works well with nvim-cmp*
+ - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) *Quickstart configurations for the Nvim LSP client*
+ - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) *Autocompletion plugin*
 
 ## Files
 
