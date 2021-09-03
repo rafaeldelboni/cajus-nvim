@@ -37,8 +37,6 @@
   ;parsing system
   :nvim-treesitter/nvim-treesitter {:run ":TSUpdate"
                                     :mod :treesitter}
-  ;snippets
-  :L3MON4D3/LuaSnip {:requires [:saadparwaiz1/cmp_luasnip]}
   ;lsp
   :neovim/nvim-lspconfig {:mod :lspconfig}
   ;autocomplete

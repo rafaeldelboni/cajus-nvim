@@ -5,22 +5,13 @@
 
 (def- cmp-src-menu-items
   {:buffer "buff"
-   :calc "calc"
    :conjure "conj"
-   :nvim_lsp "lsp"
-   :path "path"
-   :vsnip "vsnp"
-   :luasnip "lsnp"})
+   :nvim_lsp "lsp"})
 
 (def- cmp-srcs
   [{:name :nvim_lsp}
    {:name :conjure}
-   {:name :luasnip}
-   {:name :buffer}
-   {:name :path}
-   {:name :nvim_lua}
-   {:name :vsnip}
-   {:name :calc}])
+   {:name :buffer}])
 
 ;; Setup cmp with desired settings
 (cmp.setup {:formatting
@@ -35,6 +26,4 @@
                       :<C-e> (cmp.mapping.close)
                       :<CR> (cmp.mapping.confirm {:behavior cmp.ConfirmBehavior.Insert
                                                   :select true})}
-            :snippet {:expand (fn [args]
-                                (luasnip.lsp_expand args.body))}
             :sources cmp-srcs})

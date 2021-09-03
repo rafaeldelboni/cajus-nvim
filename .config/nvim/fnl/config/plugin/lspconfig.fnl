@@ -3,11 +3,13 @@
              lsp lspconfig
              cmplsp cmp_nvim_lsp}})
 
+;symbols to show for lsp diagnostics
 (vim.fn.sign_define "LspDiagnosticsSignError" {:text ""})
 (vim.fn.sign_define "LspDiagnosticsSignWarning" {:text ""})
 (vim.fn.sign_define "LspDiagnosticsSignInformation" {:text ""})
 (vim.fn.sign_define "LspDiagnosticsSignHint" {:text ""})
 
+;server features
 (let [handlers {"textDocument/publishDiagnostics"
                 (vim.lsp.with
                   vim.lsp.diagnostic.on_publish_diagnostics
@@ -47,29 +49,4 @@
   ;; Clojure
   (lsp.clojure_lsp.setup {:on_attach on_attach
                           :handlers handlers
-                          :capabilities capabilities})
-
-  ;; C/Cpp
-  (lsp.clangd.setup {:on_attach on_attach
-                     :handlers handlers
-                     :capabilities capabilities})
-
-
-  ;; JavaScript and TypeScript
-  (lsp.tsserver.setup {:on_attach on_attach
-                       :handlers handlers
-                       :capabilities capabilities})
-
-  ;; Lua
-  (lsp.sumneko_lua.setup {:on_attach on_attach
-                          :handlers handlers
-                          :capabilities capabilities
-                          :cmd ["lua-language-server"]
-                          :settings {:Lua {:workspace {:maxPreload 2000
-                                                       :preloadFileSize 1000}}}})
-
-  ;; Rust
-  (lsp.rust_analyzer.setup {:on_attach on_attach
-                            :handlers handlers
-                            :capabilities capabilities
-                            :cmd ["rustup" "run" "nightly" "rust-analyzer"]}))
+                          :capabilities capabilities}))

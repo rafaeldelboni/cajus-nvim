@@ -6,6 +6,13 @@ This is simplified version on my personal [dotfiles](https://github.com/rafaelde
 
 *Keep in mind that there is no visual/theme customization in this repository.* 
 
+## Prerequisites
+Things you need installed in your OS to use this setup
+- [git](https://git-scm.com/downloads)
+- [nvim](https://neovim.io/)
+- [rg](https://github.com/BurntSushi/ripgrep)
+- [clojure-lsp](https://github.com/clojure-lsp/clojure-lsp)
+
 ## How to use
 
 **Make sure you backup your current configuration files in `$HOME/.config/nvim` BEFORE running this.**  
@@ -56,6 +63,49 @@ For example in the line we define that we need telescope we have this map:
                                   :mod :telescope}
 ```
 This will state to packer download `nvim-telescope/telescope.nvim` and all the required plugins in `:requires` and search for the namespace `telescope`
-in file located in the following path `fnl/config/plugin/telescope`.
+in file located in the following path `fnl/config/plugin/telescope`, where I usually add plugin specific configuration like keymaps and settings.
 
-I usually add plugin specific configuration like keymaps and settings.
+### fnl/config/plugin/conjure.fnl
+Conjure specifics settings, I like to remap the doc work keymap to be `<localleader>K` instead the only `K`, to not conflict with the LSP docs `K`.
+
+### fnl/config/plugin/telescope.fnl
+Settings like ignore `node_modules` and everything in `.gitignore` to be listed in the file finder.  
+Keymaps:
+ - `<leader>ff` open the find files
+ - `<leader>fg` open the fuzzy finder
+ - `<leader>fb` open the find open buffer
+ - `<leader>fg` open the nvim help fuzzy finder
+
+### fnl/config/plugin/treesitter.fnl
+Settings to select which treesitter's features we want enabled and which language extension we want to ensure they will be always installed.
+
+### fnl/config/plugin/lspconfig.fnl
+All about nvim's lsp settings and keymaps.  
+
+#### Settings:
+
+- In the first session, we define which symbols to show for lsp diagnostics.
+- Later we describe which features and server settings we want to enable/customize.
+  - Handler defines features and how we want to render the server outputs.
+  - Capabilities we link with our autocompletion plugin (nvim-cmp), to say to the lsp servers that we have this feature enabled.
+  - On_Attach we customize our interaction with the LSP server, here we define the following keymaps:
+    - `gd` Go to definition
+    - `K` Show documentations
+    - `<leader>ld` Function declarations
+    - `<leader>lt` Type Definitions
+    - `<leader>lh` Signature Help
+    - `<leader>ln` Rename
+    - `<leader>le` Show line diagnostics
+    - `<leader>lq` Show all diagnostics information
+    - `<leader>lf` Auto format
+    - `<leader>lj` Go to next diagnostic
+    - `<leader>lk` Go to previous diagnostic
+    - `<leader>la` Open code actions menu (Using telescope plugin interface)
+    - `<leader>la` Open code actions menu for the selected text in **VISUAL mode** (Using telescope plugin interface) 
+    - `<leader>lw` Open workspace diagnostics list (Using telescope plugin interface) 
+    - `<leader>lr` Show all references list for item under the cursor (Using telescope plugin interface) 
+    - `<leader>lr` Show all implementations list for item under the cursor (Using telescope plugin interface) 
+- Lastly we configure to use all settings above in clojure-lsp server instance.
+
+### fnl/config/plugin/cmp.fnl
+Here settings of which sources we want to show up in the autocomple menu like (conjure, lsp, buffer) and some mapping to navigate in the menu.

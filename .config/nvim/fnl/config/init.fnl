@@ -9,6 +9,9 @@
 (set nvim.g.mapleader " ")
 (set nvim.g.maplocalleader ",")
 
+;select a nvim theme
+(nvim.ex.colorscheme :pablo)
+
 ;don't wrap lines
 (nvim.ex.set :nowrap)
 
