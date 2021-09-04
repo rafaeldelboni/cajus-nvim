@@ -1,5 +1,5 @@
 # What is this?
-Basic config to transform your NVIM in a powerfull clojure IDE using fennel, clojure-lsp and conjure.  
+Basic config to transform your NVIM in a powerful Clojure IDE using fennel, clojure-lsp and conjure.  
 This is simplified version on my personal [dotfiles](https://github.com/rafaeldelboni/dotfiles) setup, I highly recommend you to check it out for more advanced and updated configurations.
 
 ## Prerequisites
