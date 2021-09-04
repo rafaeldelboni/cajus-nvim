@@ -37,19 +37,19 @@ This will install all plugins declared in `fnl/config/plugin.fnl`, after packer'
 
 ## Files
 
-### init.lua
+### [init.lua](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/.config/nvim/init.lua)
 Wrapper responsible for two things:
   - Download and setup our package manager ([packer.nvim](https://github.com/wbthomason/packer.nvim)) and our fennel helper/interface ([aniseed](https://github.com/Olical/aniseed))
   - Set the entrypoint for NVIM read our config files, in our case `fnl/config/init.fnl`.
 
-### fnl/config/init.fnl
+### [fnl/config/init.fnl](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/.config/nvim/fnl/config/init.fnl)
 - Set basic global vim configurations and general keymaps.
 - Load plugin configuration namespace.
 
 > In this file among other settings I do set the leader key as `space` and local-leader as `,` for the sake of the examples of how use this configuration I will use this as basis for the commands.
 
 
-### fnl/config/plugin.fnl
+### [fnl/config/plugin.fnl](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/.config/nvim/fnl/config/plugin.fnl)
 Here we define the plugins we want packer to download and load for us, we define here a private function called `use`
 which will search in the plugin map for the keyword `:mod` and load the namespace defined in its value.
 
@@ -62,10 +62,10 @@ For example in the line we define that we need telescope we have this map:
 This will state to packer download `nvim-telescope/telescope.nvim` and all the required plugins in `:requires` and search for the namespace `telescope`
 in file located in the following path `fnl/config/plugin/telescope`, where I usually add plugin specific configuration like keymaps and settings.
 
-### fnl/config/plugin/conjure.fnl
+### [fnl/config/plugin/conjure.fnl](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/.config/nvim/fnl/config/plugin/conjure.fnl)
 Conjure specifics settings, I like to remap the doc work keymap to be `<localleader>K` instead the only `K`, to not conflict with the LSP docs `K`.
 
-### fnl/config/plugin/telescope.fnl
+### [fnl/config/plugin/telescope.fnl](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/.config/nvim/fnl/config/plugin/telescope.fnl)
 Settings like ignore `node_modules` and everything in `.gitignore` to be listed in the file finder.  
 Keymaps:
  - `<leader>ff` open the find files
@@ -73,10 +73,10 @@ Keymaps:
  - `<leader>fb` open the find open buffer
  - `<leader>fg` open the nvim help fuzzy finder
 
-### fnl/config/plugin/treesitter.fnl
+### [fnl/config/plugin/treesitter.fnl](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/.config/nvim/fnl/config/plugin/treesitter.fnl)
 Settings to select which treesitter's features we want enabled and which language extension we want to ensure they will be always installed.
 
-### fnl/config/plugin/lspconfig.fnl
+### [fnl/config/plugin/lspconfig.fnl](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/.config/nvim/fnl/config/plugin/lspconfig.fnl)
 All about nvim's lsp settings and keymaps.  
 
 #### Settings:
@@ -104,10 +104,10 @@ All about nvim's lsp settings and keymaps.
     - `<leader>lr` Show all implementations list for item under the cursor (Using telescope plugin interface) 
 - Lastly we configure to use all settings above in clojure-lsp server instance.
 
-### fnl/config/plugin/cmp.fnl
+### [fnl/config/plugin/cmp.fnl](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/.config/nvim/fnl/config/plugin/cmp.fnl)
 Here settings of which sources we want to show up in the autocomple menu like (conjure, lsp, buffer) and some mapping to navigate in the menu.
 
-### fnl/config/plugin/theme.fnl
+### [fnl/config/plugin/theme.fnl](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/.config/nvim/fnl/config/plugin/theme.fnl)
 Theme settings like style and comment style.
 
 ## Features
