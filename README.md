@@ -30,7 +30,6 @@ This will install all plugins declared in `fnl/config/plugin.fnl`, after packer'
  - [conjure](https://github.com/Olical/conjure) *Interactive repl based evaluation for nvim*
  - [telescope](https://github.com/nvim-telescope/telescope.nvim) *Find, Filter, Preview, Pick*
  - [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) *Incremental parsing system for highlighting, indentation, or folding*
- - [luasnip](https://github.com/L3MON4D3/LuaSnip) *Snippet Engine, works well with nvim-cmp*
  - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) *Quickstart configurations for the Nvim LSP client*
  - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) *Autocompletion plugin*
  - [github-nvim-theme](https://github.com/projekt0n/github-nvim-theme) *Github theme for Neovim*
