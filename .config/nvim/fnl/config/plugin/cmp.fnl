@@ -1,7 +1,6 @@
 (module config.plugin.cmp
   {autoload {nvim aniseed.nvim
-             cmp cmp
-             luasnip luasnip}})
+             cmp cmp}})
 
 (def- cmp-src-menu-items
   {:buffer "buff"

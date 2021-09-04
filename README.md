@@ -113,67 +113,55 @@ Theme settings like style and comment style.
 Some gifs showing how it works.
 
 ### Telescope - Find Files
-https://user-images.githubusercontent.com/1683898/132078536-003c188e-d585-4409-856e-a68045b671d9.mp4
-
+![telescope-find-files](docs/telescope-find-files.gif)  
 **`<leader>ff`**
 
 ### Lsp - Syntax check
-https://user-images.githubusercontent.com/1683898/132074468-6603792b-3131-488d-adb4-3d9d104ab4ee.mp4
-
+![lsp-syntax-check](docs/lsp-syntax-check.gif)  
 **`<leader>le`**
 
 ### Lsp - Go to definition
-https://user-images.githubusercontent.com/1683898/132074437-ef8113f4-7c3c-453d-92c5-893dbab99932.mp4
-
+![lsp-go-to-definition](docs/lsp-go-to-definition.gif)  
 **`gd`**
 
 ### Lsp - Document/Signature Help
-https://user-images.githubusercontent.com/1683898/132074455-71f79b14-398e-4d2d-977b-6513d496db00.mp4
-
+![lsp-document](docs/lsp-document.gif)  
 **`K`/`<leader>lh`**
 
 ### Lsp - Find definition/references
-https://user-images.githubusercontent.com/1683898/132074445-73a29655-6b97-4376-b172-37f85bce3357.mp4
-
+![lsp-find-references](docs/lsp-find-references.gif)  
 **`<leader>lr`**
 
 ### Lsp - Formatting
-https://user-images.githubusercontent.com/1683898/132074425-bc31e472-c3d1-473a-ba0a-1ce1edf3ef98.mp4
-
+![lsp-format](docs/lsp-format.gif)  
 **`<leader>lf`**
 
 ### Lsp - Code actions
-https://user-images.githubusercontent.com/1683898/132074375-17a51df6-e7b1-472f-bb26-3d2bdc4d8acd.mp4
-
+![lsp-code-actions](docs/lsp-code-actions.gif)  
 **`<leader>la`**
 
 ### Lsp - Refactorings
-https://user-images.githubusercontent.com/1683898/132075009-6d07e281-294d-4010-b6a9-ecd85868807a.mp4
-
+![lsp-refactorings](docs/lsp-refactorings.gif)  
 **`<leader>la`**
 
 ### Lsp - Rename
-https://user-images.githubusercontent.com/1683898/132075017-0b3d4b71-0565-4d75-a352-4f6200195c89.mp4
-
+![lsp-rename](docs/lsp-rename.gif)  
 **`<leader>ln`**
 
 ### Conjure - Eval
-https://user-images.githubusercontent.com/1683898/132075026-c4c1c447-6c2c-48a9-87f6-787f87dde149.mp4
-
+![conjure-eval](docs/conjure-eval.gif)  
 **`<localleader>er`**
 
 ### Conjure - Repl
-https://user-images.githubusercontent.com/1683898/132075035-f57a7e5d-71a2-46f2-9270-68b98d057b05.mp4
-
+![conjure-repl](docs/conjure-repl.gif)  
 **`<localleader>lv`**
 
 ### Conjure - Document
-https://user-images.githubusercontent.com/1683898/132075041-010a84bd-923f-4680-8a72-764c65b9a63d.mp4
-
+![conjure-document](docs/conjure-document.gif)  
 **`<localleader>K`**
 
 ### Completion
-https://user-images.githubusercontent.com/1683898/132075048-f3322b6b-e14c-40d5-ba88-aee079f544f1.mp4
+![auto-complete](docs/auto-complete.gif)  
 
 ## Contributing
 If you find any dead links, misinformation or any improvements in this documents at all [Emails](https://github.com/rafaeldelboni), [PRs](https://github.com/rafaeldelboni/buildlogs/pulls) and [Issues](https://github.com/rafaeldelboni/buildlogs/issues) are highly encouraged.
