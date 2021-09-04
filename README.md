@@ -70,7 +70,7 @@ Keymaps:
  - `<leader>ff` open the find files
  - `<leader>fg` open the fuzzy finder
  - `<leader>fb` open the find open buffer
- - `<leader>fg` open the nvim help fuzzy finder
+ - `<leader>fh` open the nvim help fuzzy finder
 
 ### [fnl/config/plugin/treesitter.fnl](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/.config/nvim/fnl/config/plugin/treesitter.fnl)
 Settings to select which treesitter's features we want enabled and which language extension we want to ensure they will be always installed.
