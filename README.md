@@ -164,7 +164,7 @@ Some gifs showing how it works.
 ![auto-complete](docs/auto-complete.gif)  
 
 ## Contributing
-If you find any dead links, misinformation or any improvements in this documents at all [Emails](https://github.com/rafaeldelboni), [PRs](https://github.com/rafaeldelboni/buildlogs/pulls) and [Issues](https://github.com/rafaeldelboni/buildlogs/issues) are highly encouraged.
+If you find any dead links, misinformation or any improvements in this documents at all [Emails](https://github.com/rafaeldelboni), [PRs](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/pulls) and [Issues](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/issues) are highly encouraged.
 
 ## License
 This is free and unencumbered software released into the public domain.  
