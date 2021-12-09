@@ -4,10 +4,20 @@
              cmplsp cmp_nvim_lsp}})
 
 ;symbols to show for lsp diagnostics
-(vim.fn.sign_define "LspDiagnosticsSignError" {:text ""})
-(vim.fn.sign_define "LspDiagnosticsSignWarning" {:text ""})
-(vim.fn.sign_define "LspDiagnosticsSignInformation" {:text ""})
-(vim.fn.sign_define "LspDiagnosticsSignHint" {:text ""})
+(defn define-signs
+  [prefix]
+  (let [error (.. prefix "SignError")
+        warn  (.. prefix "SignWarn")
+        info  (.. prefix "SignInfo")
+        hint  (.. prefix "SignHint")]
+  (vim.fn.sign_define error {:text "x" :texthl error})
+  (vim.fn.sign_define warn  {:text "!" :texthl warn})
+  (vim.fn.sign_define info  {:text "i" :texthl info})
+  (vim.fn.sign_define hint  {:text "?" :texthl hint})))
+
+(if (= (nvim.fn.has "nvim-0.6") 1)
+  (define-signs "Diagnostic")
+  (define-signs "LspDiagnostics"))
 
 ;server features
 (let [handlers {"textDocument/publishDiagnostics"
