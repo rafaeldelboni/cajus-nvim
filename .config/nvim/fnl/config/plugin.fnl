@@ -52,5 +52,12 @@
                                 :hrsh7th/cmp-nvim-lsp
                                 :PaterJason/cmp-conjure]
                      :mod :cmp}
+
+  ;; status line
+  ;; nvim-web-devicons is lua fork of vim-devicons
+  :hoob3rt/lualine.nvim {:requires [kyazdani42/nvim-web-devicons]
+                         :mod :lualine}
+
   ;theme
-  :projekt0n/github-nvim-theme {:mod :theme})
+  :projekt0n/github-nvim-theme {:mod :theme}
+  :folke/trouble.nvim {}
