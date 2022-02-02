@@ -61,3 +61,7 @@
   ;theme
   :projekt0n/github-nvim-theme {:mod :theme}
   :folke/trouble.nvim {}
+
+  ;; Menu
+  :folke/which-key.nvim {}
+  )
