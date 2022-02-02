@@ -19,7 +19,7 @@ Run these commands in the root of this repo:
 rm -rf $HOME/.config/nvim
 
 # Makes a symbolic link to the files in this repo
-ln -sf $PWD/.config/*/ $HOME/.config/
+ln -sf $PWD/.config/nvim $HOME/.config/nvim
 ```
 When you start nvim for the first time it will download packer and aniseed and show some errors, thats normal press enter to ignore and go to the nvim console pressing `:` and type `PackerInstall`.
 This will install all plugins declared in `fnl/config/plugin.fnl`, after packer's panel showing all the plugins where installed, close nvim and open it again, no errors should show up this time.
