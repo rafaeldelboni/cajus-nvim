@@ -9,6 +9,15 @@
 (set nvim.g.mapleader " ")
 (set nvim.g.maplocalleader ",")
 
+:;; Spacemacs style leader mappings.
+(nvim.set_keymap :n :<leader>wm ":tab sp<cr>" {:noremap true})
+;; new buffer
+(nvim.set_keymap :n :<leader>bn ":bn" {:noremap true})
+(nvim.set_keymap :n :<leader>ba ":saveas" {:noremap true})
+
+;; Insert mode: :fd as Escape short cut
+(nvim.set_keymap :i :fd "<ESC>" {:noremap true})
+
 ;don't wrap lines
 (nvim.ex.set :nowrap)
 
