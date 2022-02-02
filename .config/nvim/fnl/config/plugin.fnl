@@ -29,8 +29,15 @@
   :wbthomason/packer.nvim {}
   ;nvim config and plugins in Fennel
   :Olical/aniseed {:branch :develop}
-  ;clojure
+
+  ;; clojure
   :Olical/conjure {:branch :master :mod :conjure}
+  :guns/vim-sexp {}
+  :tpope/vim-sexp-mappings-for-regular-people {}
+  :tpope/vim-repeat {}
+  :tpope/vim-surround {}
+  :tpope/vim-commentary {}
+
   ;file searching
   :nvim-telescope/telescope.nvim {:requires [:nvim-lua/popup.nvim
                                              :nvim-lua/plenary.nvim]
