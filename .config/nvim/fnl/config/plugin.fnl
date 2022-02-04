@@ -32,21 +32,31 @@
   ;; nvim config and plugins in Fennel
   :Olical/aniseed {:branch :develop}
 
-  ;; clojure
-  :Olical/conjure {:branch :master :mod :conjure}
-  :guns/vim-sexp {}
-  :tpope/vim-sexp-mappings-for-regular-people {}
-  :tpope/vim-repeat {}
-  :tpope/vim-surround {}
-  :tpope/vim-commentary {}
+  ;; theme
+  :projekt0n/github-nvim-theme {:mod :theme}
+  :kyazdani42/nvim-web-devicons {}
 
-  ;file searching
+  ;; status line
+  :nvim-lualine/lualine.nvim {:mod :lualine}
+
+  ;; file searching
   :nvim-telescope/telescope.nvim {:requires [:nvim-lua/popup.nvim
                                              :nvim-lua/plenary.nvim]
                                   :mod :telescope}
+
+  ;; repl tools
+  :Olical/conjure {:branch :master :mod :conjure}
+
+  ;; sexp
+  :guns/vim-sexp {:mod :sexp}
+  :tpope/vim-sexp-mappings-for-regular-people {}
+  :tpope/vim-repeat {}
+  :tpope/vim-surround {}
+
   ;; parsing system
   :nvim-treesitter/nvim-treesitter {:run ":TSUpdate"
                                     :mod :treesitter}
+
   ;; lsp
   :neovim/nvim-lspconfig {:mod :lspconfig}
 
@@ -54,17 +64,4 @@
   :hrsh7th/nvim-cmp {:requires [:hrsh7th/cmp-buffer
                                 :hrsh7th/cmp-nvim-lsp
                                 :PaterJason/cmp-conjure]
-                     :mod :cmp}
-
-  ;; status line
-  ;; nvim-web-devicons is lua fork of vim-devicons
-  :hoob3rt/lualine.nvim {:requires [kyazdani42/nvim-web-devicons]
-                         :mod :lualine}
-
-  ;theme
-  :projekt0n/github-nvim-theme {:mod :theme}
-  :folke/trouble.nvim {}
-
-  ;; Menu
-  :folke/which-key.nvim {}
-  )
+                     :mod :cmp})

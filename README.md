@@ -33,6 +33,8 @@ This will install all plugins declared in `fnl/config/plugin.fnl`, after packer'
  - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) *Quickstart configurations for the Nvim LSP client*
  - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) *Autocompletion plugin*
  - [github-nvim-theme](https://github.com/projekt0n/github-nvim-theme) *Github theme for Neovim*
+ - [tpope-vim-sexp-bundle](https://github.com/tpope/vim-sexp-mappings-for-regular-people) *sexp mappings for regular people*
+ - [lualine](https://github.com/nvim-lualine/lualine.nvim) *neovim statusline plugin written in pure lua*
 
 ## Files
 
@@ -108,6 +110,12 @@ Here settings of which sources we want to show up in the autocomple menu like (c
 
 ### [fnl/config/plugin/theme.fnl](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/.config/nvim/fnl/config/plugin/theme.fnl)
 Theme settings like style and comment style.
+
+### [fnl/config/plugin/sexp.fnl](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/.config/nvim/fnl/config/plugin/sexp.fnl)
+Settings for vim-sexp like enabling it for another lisp languages like Fennel and Jannet
+
+### [fnl/config/plugin/lualine.fnl](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/blob/main/.config/nvim/fnl/config/plugin/lualine.fnl)
+Settings for lualine status line like some theme overides and setting what will be shown in the line.
 
 ## Features
 Some gifs showing how it works.
