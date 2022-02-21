@@ -9,7 +9,7 @@
 (set nvim.g.mapleader " ")
 (set nvim.g.maplocalleader ",")
 
-:;; Spacemacs style leader mappings.
+;; Spacemacs style leader mappings.
 (nvim.set_keymap :n :<leader>wm ":tab sp<cr>" {:noremap true})
 ;; new buffer
 (nvim.set_keymap :n :<leader>bn ":bn" {:noremap true})
