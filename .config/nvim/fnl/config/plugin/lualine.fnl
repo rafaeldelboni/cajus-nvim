@@ -8,7 +8,7 @@
 
 (def github-lua-theme
   (core.assoc
-    (require :lualine.themes.github)
+    (require :lualine.themes.auto)
     :inactive {:a {:bg "#19181e" :fg "#a4a3a6"}
                :b {:bg "#19181e" :fg "#a4a3a6"}
                :c {:bg "#19181e" :fg "#a4a3a6"}}
