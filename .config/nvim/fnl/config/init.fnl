@@ -17,20 +17,30 @@
 
 ;; Insert mode: :fd as Escape short cut
 (nvim.set_keymap :i :fd "<ESC>" {:noremap true})
+ 
+;; Leave terminal with ESC
+(nvim.set_keymap :t :<ESC> "<C-\\><C-n>" {:noremap true})
 
 ;don't wrap lines
-(nvim.ex.set :nowrap)
+; (nvim.ex.set :nowrap)
 
 ;sets a nvim global options
 (let [options
       {;settings needed for compe autocompletion
-       :completeopt "menuone,noselect"
+       :completeopt "menu,menuone,noselect"
        ;case insensitive search
        :ignorecase true
        ;smart search case
        :smartcase true
-       ;shared clipboard with linux
-       :clipboard "unnamedplus"}]
+       ;visually see text replacements as they happen
+       :inccommand "split"
+       ;reload file when it changes
+       :autoread true
+       ;line numbers
+       :number true
+       :cursorline true
+       ;time in ms before writting to swap file (auto-save)
+       :updatetime 100}]
   (each [option value (pairs options)]
     (core.assoc nvim.o option value)))
 

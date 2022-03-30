@@ -30,10 +30,11 @@
   ;; plugin Manager
   :wbthomason/packer.nvim {}
   ;; nvim config and plugins in Fennel
+  :lewis6991/impatient.nvim {}
   :Olical/aniseed {:branch :develop}
 
   ;; theme
-  :projekt0n/github-nvim-theme {:mod :theme}
+  :Mofiqul/dracula.nvim {:mod :theme}
   :kyazdani42/nvim-web-devicons {}
 
   ;; status line
@@ -44,8 +45,14 @@
                                              :nvim-lua/plenary.nvim]
                                   :mod :telescope}
 
+
   ;; repl tools
   :Olical/conjure {:branch :master :mod :conjure}
+  :radenling/vim-dispatch-neovim {:requires [:tpope/vim-dispatch]}
+  :clojure-vim/vim-jack-in {}
+
+  ;; Lisps
+  :eraserhd/parinfer-rust {:run "cargo build --release"}
 
   ;; sexp
   :guns/vim-sexp {:mod :sexp}
@@ -64,4 +71,12 @@
   :hrsh7th/nvim-cmp {:requires [:hrsh7th/cmp-buffer
                                 :hrsh7th/cmp-nvim-lsp
                                 :PaterJason/cmp-conjure]
-                     :mod :cmp})
+                     :mod :cmp}
+  ;; Git
+  :tpope/vim-fugitive {}
+  :airblade/vim-gitgutter {}
+
+  ;; Nice things
+  :tpope/vim-commentary {}
+  :yuttie/comfortable-motion.vim {}
+  :lukas-reineke/indent-blankline.nvim {:mod :blankline})

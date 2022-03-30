@@ -1,5 +1,4 @@
 (module config.plugin.theme
-  {autoload {theme github-theme}})
+  {autoload {nvim aniseed.nvim}})
 
-(theme.setup {:theme_style "dark"
-              :comment_style "italic"})
+(nvim.ex.colorscheme :dracula)
