@@ -40,7 +40,8 @@
   :nvim-lualine/lualine.nvim {:mod :lualine}
 
   ;; file searching
-  :nvim-telescope/telescope.nvim {:requires [:nvim-lua/popup.nvim
+  :nvim-telescope/telescope.nvim {:requires [:nvim-telescope/telescope-ui-select.nvim
+                                             :nvim-lua/popup.nvim
                                              :nvim-lua/plenary.nvim]
                                   :mod :telescope}
 
