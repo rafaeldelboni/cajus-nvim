@@ -61,8 +61,12 @@
   ;; lsp
   :neovim/nvim-lspconfig {:mod :lspconfig}
 
+  ; snippets
+  :L3MON4D3/LuaSnip {:requires [:saadparwaiz1/cmp_luasnip]}
+
   ;; autocomplete
   :hrsh7th/nvim-cmp {:requires [:hrsh7th/cmp-buffer
                                 :hrsh7th/cmp-nvim-lsp
+                                :hrsh7th/cmp-vsnip
                                 :PaterJason/cmp-conjure]
                      :mod :cmp})
