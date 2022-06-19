@@ -44,5 +44,10 @@
   (each [option value (pairs options)]
     (core.assoc nvim.o option value)))
 
-;import plugin.fnl
+(nvim.ex.autocmd
+   :FileType
+   "clojure"
+   ":lua require('config.lang.clojure')")
+
 (require :config.plugin)
+
