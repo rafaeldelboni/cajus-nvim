@@ -35,6 +35,7 @@ This will install all plugins declared in `fnl/config/plugin.fnl`, after packer'
  - [github-nvim-theme](https://github.com/projekt0n/github-nvim-theme) *Github theme for Neovim*
  - [tpope-vim-sexp-bundle](https://github.com/tpope/vim-sexp-mappings-for-regular-people) *sexp mappings for regular people*
  - [lualine](https://github.com/nvim-lualine/lualine.nvim) *neovim statusline plugin written in pure lua*
+ - [luasnip](https://github.com/L3MON4D3/LuaSnip) *Snippet Engine for Neovim written in Lua.*
 
 ## Files
 

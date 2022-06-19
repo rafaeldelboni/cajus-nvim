@@ -41,7 +41,8 @@
   :nvim-lualine/lualine.nvim {:mod :lualine}
 
   ;; file searching
-  :nvim-telescope/telescope.nvim {:requires [:nvim-lua/popup.nvim
+  :nvim-telescope/telescope.nvim {:requires [:nvim-telescope/telescope-ui-select.nvim
+                                             :nvim-lua/popup.nvim
                                              :nvim-lua/plenary.nvim]
                                   :mod :telescope}
 
@@ -67,9 +68,13 @@
   ;; lsp
   :neovim/nvim-lspconfig {:mod :lspconfig}
 
+  ; snippets
+  :L3MON4D3/LuaSnip {:requires [:saadparwaiz1/cmp_luasnip]}
+
   ;; autocomplete
   :hrsh7th/nvim-cmp {:requires [:hrsh7th/cmp-buffer
                                 :hrsh7th/cmp-nvim-lsp
+                                :hrsh7th/cmp-vsnip
                                 :PaterJason/cmp-conjure]
                      :mod :cmp}
   ;; Git

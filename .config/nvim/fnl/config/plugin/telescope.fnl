@@ -1,9 +1,13 @@
 (module config.plugin.telescope
   {autoload {nvim aniseed.nvim
-             telescope telescope}})
+             telescope telescope
+             themes telescope.themes}})
 
 (telescope.setup {:defaults {:file_ignore_patterns ["node_modules"]}
+                  :extensions {:ui-select {1 (themes.get_dropdown {})}}
                   :pickers {:find_files {:find_command ["rg" "--files" "--iglob" "!.git" "--hidden"]}}})
+
+(telescope.load_extension "ui-select")
 
 (nvim.set_keymap :n :<leader>ff ":lua require('telescope.builtin').find_files()<CR>" {:noremap true})
 (nvim.set_keymap :n :<leader>fg ":lua require('telescope.builtin').live_grep()<CR>" {:noremap true})
