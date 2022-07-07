@@ -30,7 +30,7 @@
 
 (lualine.setup
   {:options {:theme github-lua-theme
-             :icons_enabled false
+             :icons_enabled true
              :section_separators ["" ""]
              :component_separators ["" ""]}
    :sections {:lualine_a []
@@ -38,7 +38,7 @@
               :lualine_c [["FugitiveHead"]
                           {1 :filename
                            :file_status true
-                           :path 2
+                           :path 1
                            :shorting_target 40}]
               :lualine_x [{1 :diagnostics
                            :sections [:error :warn :info :hint]
@@ -52,7 +52,7 @@
                        :lualine_b []
                        :lualine_c [{1 :filename
                                     :file_status true
-                                    :path 2}]
+                                    :path 1}]
                        :lualine_x []
                        :lualine_y []
                        :lualine_z []}})
