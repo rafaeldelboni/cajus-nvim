@@ -35,7 +35,7 @@
                 (vim.lsp.with
                   vim.lsp.handlers.signature_help
                   {:border "single"})}
-      capabilities (cmplsp.update_capabilities (vim.lsp.protocol.make_client_capabilities))
+      capabilities (cmplsp.default_capabilities)
       on_attach (fn [client bufnr]
                   (do
                     (nvim.buf_set_keymap bufnr :n :gd "<Cmd>lua vim.lsp.buf.definition()<CR>" {:noremap true})
@@ -55,6 +55,9 @@
                     (nvim.buf_set_keymap bufnr :n :<leader>lw ":lua require('telescope.builtin').diagnostics()<cr>" {:noremap true})
                     (nvim.buf_set_keymap bufnr :n :<leader>lr ":lua require('telescope.builtin').lsp_references()<cr>" {:noremap true})
                     (nvim.buf_set_keymap bufnr :n :<leader>li ":lua require('telescope.builtin').lsp_implementations()<cr>" {:noremap true})))]
+
+  ;; To add support to more language servers check:
+  ;; https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
 
   ;; Clojure
   (lsp.clojure_lsp.setup {:on_attach on_attach
