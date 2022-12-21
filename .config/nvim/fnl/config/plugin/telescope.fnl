@@ -3,9 +3,23 @@
              telescope telescope
              themes telescope.themes}})
 
-(telescope.setup {:defaults {:file_ignore_patterns ["node_modules"]}
+(telescope.setup {:defaults {:file_ignore_patterns ["node_modules"]
+                             :vimgrep_arguments ["rg"
+                                                 "--color=never"
+                                                 "--no-heading"
+                                                 "--with-filename"
+                                                 "--line-number"
+                                                 "--column"
+                                                 "--smart-case"
+                                                 "--iglob"
+                                                 "!.git"
+                                                 "--hidden"]}
                   :extensions {:ui-select {1 (themes.get_dropdown {})}}
-                  :pickers {:find_files {:find_command ["rg" "--files" "--iglob" "!.git" "--hidden"]}}})
+                  :pickers {:find_files {:find_command ["rg"
+                                                        "--files"
+                                                        "--iglob"
+                                                        "!.git"
+                                                        "--hidden"]}}})
 
 (telescope.load_extension "ui-select")
 
