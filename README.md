@@ -42,6 +42,9 @@ This will install all plugins declared in `fnl/config/plugin.fnl`, after packer'
  - [lualine](https://github.com/nvim-lualine/lualine.nvim) *neovim statusline plugin written in pure lua*
  - [luasnip](https://github.com/L3MON4D3/LuaSnip) *Snippet Engine for Neovim written in Lua.*
 
+## Using with other languages
+ - [Unity C# Scripts](https://gist.github.com/rafaeldelboni/f09c35e9538ef8510bb5b56a50ce9d82) How to use cajus-nvim as Unity C# Script editor.
+
 ## Files
 
 ### [init.lua](https://github.com/rafaeldelboni/cajus-nvim/blob/main/.config/nvim/init.lua)
