@@ -3,6 +3,8 @@
 # cajus-nvim
 A curvy and juicy neovim configuration following the "Keep it simple!" design principle.
 
+<br>
+
 ## What is this?
 Setup config to transform your NVIM in a powerful Clojure IDE using fennel, clojure-lsp and conjure.
 This is simplified version on my personal [dotfiles](https://github.com/rafaeldelboni/dotfiles) setup, I highly recommend you to check it out for more advanced and updated configurations.
@@ -176,6 +178,9 @@ Some gifs showing how it works.
 
 ### Completion
 ![auto-complete](docs/auto-complete.gif)
+
+## Etymology
+Cajus is the Portuguese for cashews, which I thought is a fitting name because the format of its nuts reminded me of a parenteses.
 
 ## Contributing
 If you find any dead links, misinformation or any improvements in this documents at all [Emails](https://github.com/rafaeldelboni), [PRs](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/pulls) and [Issues](https://github.com/rafaeldelboni/nvim-fennel-lsp-conjure-as-clojure-ide/issues) are highly encouraged.
