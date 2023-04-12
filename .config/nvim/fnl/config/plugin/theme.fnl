@@ -1,5 +1,6 @@
 (module config.plugin.theme
   {autoload {theme github-theme}})
 
-(theme.setup {:theme_style "dark"
-              :comment_style "italic"})
+(theme.setup {:options {:styles {:comments "italic"}}})
+
+(vim.cmd "colorscheme github_dark")
