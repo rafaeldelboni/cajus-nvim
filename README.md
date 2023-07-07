@@ -38,7 +38,7 @@ This will install all plugins declared in `fnl/config/plugin.fnl`, after packer'
  - [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) *Incremental parsing system for highlighting, indentation, or folding*
  - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) *Quickstart configurations for the Nvim LSP client*
  - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) *Autocompletion plugin*
- - [tokyonight-nvim](https://github.com/folke/tokyonight.nvim) *Github theme for Neovim*
+ - [tokyonight-nvim](https://github.com/folke/tokyonight.nvim) *A clean, dark Neovim theme written in Lua*
  - [tpope-vim-sexp-bundle](https://github.com/tpope/vim-sexp-mappings-for-regular-people) *sexp mappings for regular people*
  - [lualine](https://github.com/nvim-lualine/lualine.nvim) *neovim statusline plugin written in pure lua*
  - [luasnip](https://github.com/L3MON4D3/LuaSnip) *Snippet Engine for Neovim written in Lua.*
