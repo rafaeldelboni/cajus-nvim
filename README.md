@@ -13,6 +13,7 @@ Things you need installed in your OS to use this setup
 - [nvim](https://neovim.io/)
 - [rg](https://github.com/BurntSushi/ripgrep)
 - [clojure-lsp](https://github.com/clojure-lsp/clojure-lsp)
+- [nerd-fonts](https://www.nerdfonts.com/)
 
 ## How to use
 
@@ -132,6 +133,10 @@ Some gifs showing how it works.
 ### Telescope - Find Files
 ![telescope-find-files](docs/telescope-find-files.gif)
 **`<leader>ff`**
+
+### Lsp - Loading
+![lsp-loading](docs/lsp-loading.gif)
+**`on startup`**
 
 ### Lsp - Syntax check
 ![lsp-syntax-check](docs/lsp-syntax-check.gif)

@@ -33,8 +33,8 @@
   :Olical/aniseed {:branch :develop}
 
   ;; theme
-  :projekt0n/github-nvim-theme {:mod :theme}
-  :kyazdani42/nvim-web-devicons {}
+  :folke/tokyonight.nvim {:mod :theme}
+  :nvim-tree/nvim-web-devicons {}
 
   ;; status line
   :nvim-lualine/lualine.nvim {:mod :lualine}
