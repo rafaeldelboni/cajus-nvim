@@ -5,7 +5,7 @@ This project will be archived as the author of Aniseed is making a significant c
 
 A new fennel based configuration based on this is being evaluated to in the future to replace this project.
 
-If you want to test the new seupt please check it on [cajus-nfnl](https://github.com/rafaeldelboni/cajus-nfnl)
+If you want to test the new setup please check it on [cajus-nfnl](https://github.com/rafaeldelboni/cajus-nfnl)
 
 # cajus-nvim
 A curvy and juicy neovim configuration following the "Keep it simple!" design principle.
