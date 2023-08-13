@@ -1,5 +1,12 @@
 <img src="docs/cajus-nvim.png" width="128" align="right">
 
+## Archiving this project
+This project will be archived as the author of Aniseed is making a significant change to how Fennel is used and creating the [nfnl project](https://github.com/olical/nfnl).
+
+A new fennel based configuration based on this is being evaluated to in the future to replace this project.
+
+If you want to test the new seupt please check it on [cajus-nfnl](https://github.com/rafaeldelboni/cajus-nfnl)
+
 # cajus-nvim
 A curvy and juicy neovim configuration following the "Keep it simple!" design principle.
 
